@@ -1,0 +1,131 @@
+/* Import de la police */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #ff7b54;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff7b54;
+    border-radius: 5px;
+}
+
+#home {
+    background: url('landscape.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+#home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#home .content {
+    position: relative;
+    z-index: 2;
+}
+
+#home h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#home p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff7b54;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff5733;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+footer {
+    background: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
